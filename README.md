@@ -4,7 +4,7 @@ Mayıs 2026 rotası: Leaflet + OpenStreetMap ile etkileşimli harita ve günlük
 
 ## Site (GitHub Pages)
 
-https://aikadevstudio-ai.github.io/tatil-plani/
+https://tunasen.github.io/tatil-plani/
 
 ## Yerel açılış
 
