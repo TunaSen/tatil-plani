@@ -166,7 +166,7 @@
         <div class="route">Siz: Sabah uçakla Roma’dan Münih · Anneniz: Roma → Salerno (akşam konaklama)</div>
         <span class="time">Roma–Salerno ~2,5–3 saat (otoyol) · Roma–Münih uçuşu ~1–1,5 saat (+ havalimanı süreleri)</span>
         <ul>
-          <li><strong>Münih</strong>: 26 akşam tanıtım — Marienplatz, Viktualienmarkt; asıl geziler 27–29.</li>
+          <li><strong>Münih</strong>: 26 akşam tanıtım — Marienplatz, Viktualienmarkt; asıl geziler 27–30 (31 sabah otobüsle Tiran).</li>
           <li><strong>Salerno</strong>: sahil, Duomo, eski merkez — anneniz için akşam kısa tur.</li>
         </ul>
       </div>
@@ -181,26 +181,34 @@
       </div>
       <div class="day" data-focus="29" data-lat="43.8" data-lng="14.5" data-zoom="6">
         <h2>29 Mayıs (Cuma)</h2>
-        <div class="route">Siz: Gündüz Münih · akşam/gece Tiran uçuşu · Anneniz: Salerno → Bari → gece feribot → Durrës</div>
-        <span class="time">Salerno–Bari ~2,5–3 saat · Münih–Tiran uçuşu genelde ~1,5–2 saat (+ transfer) · feribot Bari–Durrës işletmeye göre ~8–12 saat</span>
+        <div class="route">Gezinti günü · Siz: Münih · Anneniz: Salerno</div>
+        <span class="time">—</span>
         <ul>
-          <li><strong>Münih</strong>: son saatlerde Viktualienmarkt veya alışveriş; uçuş öncesi S-Bahn ile havalimanı payı.</li>
-          <li><strong>Bari</strong> (anneniz): Vecchia Bari, katedral, feribot öncesi liman.</li>
-          <li>Tiran varışınız 29 gece veya 30 çok erken olabilir — biletinize göre 30 Mayıs kartına uydurun.</li>
+          <li><strong>Münih</strong>: kaçırdığınız müze veya Viktualienmarkt, alışveriş; akşam erken uyku — 31 sabah uzun yol için.</li>
+          <li><strong>Salerno</strong> (anneniz): son tam gün — Lungomare, Paestum veya rahat kahve/kısa tur; 30’da çıkış var.</li>
         </ul>
       </div>
-      <div class="day" data-focus="30" data-lat="41.3275" data-lng="19.8187" data-zoom="9">
+      <div class="day" data-focus="30" data-lat="48.1372" data-lng="11.5755" data-zoom="8">
         <h2>30 Mayıs (Cumartesi)</h2>
-        <div class="route">Tiran’da sabah buluşma → araçla Sofya</div>
-        <span class="time">Tiran–Sofya kara ~5,5–7 saat (rota ve sınıra göre değişir; pay bırakın)</span>
+        <div class="route">Siz: Son gün Münih (gece Münih) · Anneniz: Yola çıkış — Salerno → Bari · akşam vapura binme · Durrës</div>
+        <span class="time">Salerno–Bari ~2,5–3 saat · feribot Bari–Durrës işletmeye göre ~8–12 saat (çoğu sefer sabahına sarkan varış)</span>
         <ul>
-          <li><strong>Tiran</strong>: Skanderbeg Meydanı, Et’Hem Bey Camii, Blloku — sabah buluşması için.</li>
+          <li><strong>Münih</strong>: bavul toplama, yakın çıkış; otobüs durağı/istasyonuna göre kısa pay.</li>
+          <li><strong>Bari</strong> (anneniz): akşam vapurundan önce Vecchia Bari veya feribot işlemleri + limanda pay.</li>
+        </ul>
+      </div>
+      <div class="day" data-focus="31" data-lat="41.3275" data-lng="19.8187" data-zoom="9">
+        <h2>31 Mayıs (Pazar)</h2>
+        <div class="route">Sabah Münih’ten Tiran’a otobüs · Tiran’da buluşma → araçla Sofya</div>
+        <span class="time">Münih–Tiran otobüsü genelde bütün gün sürebilir (~18–26+ saat, hat ve gümrüğe göre — biletinizi baz alın). Tiran–Sofya kara ~5,5–7 saat</span>
+        <ul>
+          <li><strong>Tiran</strong>: varışınız ve annenizin feribot çıkışı saatlerine göre öğlene doğru buluşma — Skanderbeg, kısa yürüyüş; uygununca Sofya çıkışı.</li>
         </ul>
       </div>
     </aside>
     <div id="map"></div>
   </div>
-  <p class="note">Harita: mavi ana hat kara rotası (annenizin Salerno–Bari–Durrës–Tiran–Sofya ayağı dahil); turuncu kesik çizgi Roma–Münih uçuşu; mor kesik çizgi Münih–Tiran uçuşu. Feribot süresi ve uçuş saatleri biletinize göre güncelleyin. OpenStreetMap katmanı kullanır.</p>
+  <p class="note">Harita: mavi ana hat kara rotası (annenizin Salerno–Bari–Durrës–Tiran–Sofya ayağı dahil); turuncu kesik çizgi Roma–Münih uçuşu; mor kesik çizgi Münih–Tiran otobüsünün yaklaşık düz çizgi hattı (gerçek rota daha uzun sürebilir). Feribot ve otobüs saatlerini biletinize göre güncelleyin. OpenStreetMap katmanı kullanır.</p>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script>
@@ -222,12 +230,12 @@
       { id: "florence", name: "Floransa", lat: 43.7696, lng: 11.2558, day: "25", note: "25 sabah/öğle." },
       { id: "pisa", name: "Pisa", lat: 43.7228, lng: 10.4017, day: "25", note: "25 öğleden sonra." },
       { id: "rome", name: "Roma", lat: 41.9028, lng: 12.4964, day: "25", note: "25 gece; 26 ayrılık." },
-      { id: "munich", name: "Münih", lat: 48.1372, lng: 11.5755, day: "26–29", note: "26–29 Mayıs; 29 akşam/gece Tiran uçuşu." },
-      { id: "salerno", name: "Salerno", lat: 40.6824, lng: 14.7681, day: "26–29", note: "Anneniz: gezinti 27–28; 29’da Bari’ye çıkış." },
-      { id: "bari", name: "Bari", lat: 41.1177, lng: 16.8719, day: "29", note: "Feribot kalkış." },
-      { id: "durres", name: "Durrës", lat: 41.3231, lng: 19.4414, day: "29", note: "Gece feribot varışı (30 sabahına sarkan)." },
-      { id: "tirana", name: "Tiran", lat: 41.3275, lng: 19.8187, day: "29–30", note: "29 gece/30 sabah varış; 30 sabah buluşma." },
-      { id: "sofya2", name: "Sofya (dönüş)", lat: 42.6977, lng: 23.3219, day: "30", note: "Tiran sonrası hedef — aynı şehir ikinci durak." }
+      { id: "munich", name: "Münih", lat: 48.1372, lng: 11.5755, day: "26–31", note: "26–30 gece kalışlar; 31 Mayıs sabah otobüsle Tiran." },
+      { id: "salerno", name: "Salerno", lat: 40.6824, lng: 14.7681, day: "26–29", note: "Anneniz: gezinti 27–29 cuma dahil; 30 cumartesi Bari’ye çıkış." },
+      { id: "bari", name: "Bari", lat: 41.1177, lng: 16.8719, day: "30", note: "30 Mayıs akşam feribot." },
+      { id: "durres", name: "Durrës", lat: 41.3231, lng: 19.4414, day: "30–31", note: "30 akşam kalkış; varış çoğu hatta 31 sabahına sarkan." },
+      { id: "tirana", name: "Tiran", lat: 41.3275, lng: 19.8187, day: "31", note: "31 Mayıs: Münih’ten çıkan otobüsle gün içi varış (bilet saatine göre); buluşma ve Sofya çıkışı." },
+      { id: "sofya2", name: "Sofya (dönüş)", lat: 42.6977, lng: 23.3219, day: "31", note: "Tiran buluşmasından sonra araçlı dönüş hedefi." }
     ];
 
     const carRouteLatLngs = [
@@ -265,7 +273,7 @@
       dashArray: "8 6"
     }).addTo(map);
 
-    const flyMunichTirana = L.polyline([[48.1372, 11.5755], [41.3275, 19.8187]], {
+    const busMunichTirana = L.polyline([[48.1372, 11.5755], [41.3275, 19.8187]], {
       color: "#c27bd6",
       weight: 3,
       opacity: 0.9,
@@ -273,11 +281,11 @@
     }).addTo(map);
 
     L.marker([48.1372, 11.5755])
-      .bindTooltip("<strong>Münih</strong><br>" + formatTripDay("26–29"), { className: "waypoint-tip", direction: "top" })
+      .bindTooltip("<strong>Münih</strong><br>" + formatTripDay("26–31"), { className: "waypoint-tip", direction: "top" })
       .bindPopup(
         "<div class='popup-title'>Münih · " +
-          formatTripDay("26–29") +
-          "</div><p>26–29 Mayıs konaklama ve geziler; 29’da Tiran uçuşu (mor kesik çizgi).</p>"
+          formatTripDay("26–31") +
+          "</div><p>26–30 konaklama ve geziler; 31 Mayıs sabah otobüsle Tiran (mor kesik yaklaşık hat).</p>"
       )
       .addTo(map);
 
@@ -310,7 +318,7 @@
     });
 
     map.fitBounds(
-      carLine.getBounds().extend(flyRomeMunich.getBounds()).extend(flyMunichTirana.getBounds()),
+      carLine.getBounds().extend(flyRomeMunich.getBounds()).extend(busMunichTirana.getBounds()),
       { padding: [40, 40] }
     );
 
