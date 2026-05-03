@@ -163,10 +163,10 @@
       </div>
       <div class="day" data-focus="26" data-lat="48.1372" data-lng="11.5755" data-zoom="8">
         <h2>26 Mayıs (Salı)</h2>
-        <div class="route">Siz: Sabah uçakla Roma’dan Münih · Anneniz: Roma → Salerno (akşam konaklama)</div>
-        <span class="time">Roma–Salerno ~2,5–3 saat (otoyol) · Roma–Münih uçuşu ~1–1,5 saat (+ havalimanı süreleri)</span>
+        <div class="route">Siz: 26 Mayıs <strong>08:20</strong> Roma → Münih uçak · Anneniz: Roma → Salerno (akşam konaklama)</div>
+        <span class="time">Uçak kalkış 08:20 (biletine göre) · uçuş süresi ~1–1,5 saat + havalimanı transfer · Roma–Salerno araç ~2,5–3 saat</span>
         <ul>
-          <li><strong>Münih</strong>: 26 akşam tanıtım — Marienplatz, Viktualienmarkt; asıl geziler 27–30 (31 sabah otobüsle Tiran).</li>
+          <li><strong>Münih</strong>: Öğlene yakın şehirde olursunuz — öğleden sonra Marienplatz / Viktualienmarkt; asıl dolu geziler 27–30 (31 sabah otobüsle Tiran).</li>
           <li><strong>Salerno</strong>: sahil, Duomo, eski merkez — anneniz için akşam kısa tur.</li>
         </ul>
       </div>
@@ -208,7 +208,7 @@
     </aside>
     <div id="map"></div>
   </div>
-  <p class="note">Harita: mavi ana hat kara rotası (annenizin Salerno–Bari–Durrës–Tiran–Sofya ayağı dahil); turuncu kesik çizgi Roma–Münih uçuşu; mor kesik çizgi Münih–Tiran otobüsünün yaklaşık düz çizgi hattı (gerçek rota daha uzun sürebilir). Feribot ve otobüs saatlerini biletinize göre güncelleyin. OpenStreetMap katmanı kullanır.</p>
+  <p class="note">Harita: mavi ana hat kara rotası (annenizin Salerno–Bari–Durrës–Tiran–Sofya ayağı dahil); turuncu kesik çizgi Roma–Münih uçuşu (26 Mayıs sabah <strong>08:20</strong> kalkışınız — kesin saat bilette); mor kesik çizgi Münih–Tiran otobüsünün yaklaşık düz çizgi hattı (gerçek rota daha uzun sürebilir). Feribot ve otobüs saatlerini biletinize göre güncelleyin. OpenStreetMap katmanı kullanır.</p>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script>
@@ -229,8 +229,8 @@
       { id: "bologna", name: "Bologna", lat: 44.4949, lng: 11.3426, day: "24", note: "24 gece." },
       { id: "florence", name: "Floransa", lat: 43.7696, lng: 11.2558, day: "25", note: "25 sabah/öğle." },
       { id: "pisa", name: "Pisa", lat: 43.7228, lng: 10.4017, day: "25", note: "25 öğleden sonra." },
-      { id: "rome", name: "Roma", lat: 41.9028, lng: 12.4964, day: "25", note: "25 gece; 26 ayrılık." },
-      { id: "munich", name: "Münih", lat: 48.1372, lng: 11.5755, day: "26–31", note: "26–30 gece kalışlar; 31 Mayıs sabah otobüsle Tiran." },
+      { id: "rome", name: "Roma", lat: 41.9028, lng: 12.4964, day: "25–26", note: "25 gece; 26’da siz sabah 08:20 uçak öncesi ayrılış, anneniz Salerno’ya araçla." },
+      { id: "munich", name: "Münih", lat: 48.1372, lng: 11.5755, day: "26–31", note: "26 Mayıs sabah 08:20 Roma uçağıyla geliş; 26–30 gece; 31 sabah otobüsle Tiran." },
       { id: "salerno", name: "Salerno", lat: 40.6824, lng: 14.7681, day: "26–29", note: "Anneniz: gezinti 27–29 cuma dahil; 30 cumartesi Bari’ye çıkış." },
       { id: "bari", name: "Bari", lat: 41.1177, lng: 16.8719, day: "30", note: "30 Mayıs akşam feribot." },
       { id: "durres", name: "Durrës", lat: 41.3231, lng: 19.4414, day: "30–31", note: "30 akşam kalkış; varış çoğu hatta 31 sabahına sarkan." },
@@ -285,7 +285,7 @@
       .bindPopup(
         "<div class='popup-title'>Münih · " +
           formatTripDay("26–31") +
-          "</div><p>26–30 konaklama ve geziler; 31 Mayıs sabah otobüsle Tiran (mor kesik yaklaşık hat).</p>"
+          "</div><p>26 Mayıs 08:20 Roma uçağıyla geliş; 26–30 konaklama ve geziler; 31 sabah otobüsle Tiran (mor kesik yaklaşık hat).</p>"
       )
       .addTo(map);
 
